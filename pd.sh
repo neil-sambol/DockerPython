@@ -160,6 +160,10 @@ then
     echo ".pydevproject" >> ./.gitignore
 
     echo >> ./.gitignore
+    echo "# PyCharm" >> ./.gitignore
+    echo ".idea/*" >> ./.gitignore
+
+    echo >> ./.gitignore
     echo "# Rope" >> ./.gitignore
     echo ".ropeproject" >> ./.gitignore
 
@@ -173,7 +177,7 @@ then
     echo "docs/_build/" >> ./.gitignore
 
     echo "# Environment Variables" >> ./.gitignore
-    echo ".*env" >> ./.gitignore
+    echo ".env*" >> ./.gitignore
   else
     echo "--> ${GREEN}.gitignore file exists proceeding with existing file...${NONE}"
   fi
