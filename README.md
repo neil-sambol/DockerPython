@@ -1,4 +1,4 @@
-# Readme for Docker-Python
+# Readme for DockerPython
 
 ## Problem to solve:
 
